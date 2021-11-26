@@ -1,6 +1,21 @@
 body{
   padding: 0px;
   margin: 0px;
-  background-color: antiquewhite;
+  background-color: rgb(104, 164, 184);
 }
 
+.players-layout{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.player-div{
+  margin-top: 25px;
+  font-size: 25px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
