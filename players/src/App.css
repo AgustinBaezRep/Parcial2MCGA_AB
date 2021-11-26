@@ -7,15 +7,28 @@ body{
 .players-layout{
   display: flex;
   flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  margin-top: 150px;
+  margin-top: 50px;
+  margin-left: 40%;
 }
 
-.player-div{
-  margin-top: 25px;
-  font-size: 25px;
-  color: black;
+table {
+  width: 20%;
+  border-collapse: collapse;
+  border: black 2px solid;
+  font-size: 20px;
+}
+
+thead tr th{
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
+  border: black 2px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+tbody tr td{
+  font-family: Arial, Helvetica, sans-serif;
+  border: black 2px solid;
+  padding-left: 10px;
+  padding-right: 10px;
 }

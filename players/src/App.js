@@ -8,14 +8,14 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nav></Nav  >
+        <Nav></Nav>
         <Routes>
+          <Route path='/' exact element={<Body/>}></Route>
           <Route path='/players' element={<Body/>}></Route>
         </Routes>
         <Footer></Footer>
       </div>
     </Router>
-    
   );
 }
 

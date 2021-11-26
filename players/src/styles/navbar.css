@@ -14,12 +14,12 @@
     list-style: none;
     text-decoration: none;
     margin-left: 50px;
-    color: white;
+    color: black;
   }
   
   .nav-link:hover{
     cursor: pointer;
     background-color: rgb(145, 197, 214);
     border-radius: 5px;
-    padding: 1px;
+    padding: 0.3px;
   }
