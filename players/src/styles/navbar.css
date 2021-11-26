@@ -1,0 +1,25 @@
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: lightblue;
+  }
+  
+  .nav-link{
+    display: flex;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
+  }
+  
+  .nav-link:hover{
+    cursor: pointer;
+    background-color: rgb(145, 197, 214);
+    border-radius: 5px;
+    padding: 1px;
+  }
